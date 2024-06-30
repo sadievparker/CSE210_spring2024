@@ -1,13 +1,11 @@
-using System;
-
 public class Word
-    {
-        public string Text;
-        public bool Hidden;
+{
+    public string Text { get; }
+    public bool Hidden { get; set; }
 
-        public Word(string text)
-        {
-            Text = text;
-            Hidden = false;
-        }
+    public Word(string text)
+    {
+        Text = text;
+        Hidden = false;
     }
+}

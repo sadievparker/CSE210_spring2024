@@ -1,28 +1,25 @@
-
-using System;
-
 public class ScriptureRef
+{
+    private int _chapter;
+    private int _startVerse;
+    private int _endVerse;
+
+    public ScriptureRef(int chapter, int startVerse, int endVerse = 0)
     {
-        private int Chapter;
-        private int StartVerse;
-        private int EndVerse;
+        _chapter = chapter;
+        _startVerse = startVerse;
+        _endVerse = endVerse;
+    }
 
-        private ScriptureRef(int chapter, int startVerse, int endVerse = 0)
+    public override string ToString()
+    {
+        if (_endVerse == 0)
         {
-            Chapter = chapter;
-            StartVerse = startVerse;
-            EndVerse = endVerse;
+            return $"{_chapter}:{_startVerse}";
         }
-
- public override string ToString()
+        else
         {
-            if (EndVerse == 0)
-            {
-                return $"{Chapter}:{StartVerse}";
-            }
-            else
-            {
-                return $"{Chapter}:{StartVerse}-{EndVerse}";
-            }
+            return $"{_chapter}:{_startVerse}-{_endVerse}";
         }
     }
+}

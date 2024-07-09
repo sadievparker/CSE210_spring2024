@@ -1,0 +1,13 @@
+Prompt: What are personal strengths of yours?
+Responses:
+- I am smart
+- I am kind
+- I care about others
+Total Responses: 3
+~~~~~~~~~~~~~~~~~~~~
+Prompt: Who are people that you have helped this week?
+Responses:
+- Dallin
+- Mom
+Total Responses: 2
+~~~~~~~~~~~~~~~~~~~~

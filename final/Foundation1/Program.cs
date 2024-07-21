@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         // youtube videos
-        var video1 = new Video("Wedding Video", "Sadie Parker ", 300);
+        var video1 = new Video("Wedding Video", "Sadie Parker ", 300); // length is in seconds
         var video2 = new Video("Disneyland Must Do!", "Micky Mouse", 600);
         var video3 = new Video("Get Ready with me", "Olivia Jones", 1200);
 

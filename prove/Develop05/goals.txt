@@ -1,0 +1,4 @@
+210
+SimpleGoal|Go the Bed|10|True
+EternalGoal|Be a covenant keeper|1000000|False
+ChecklistGoal|Do homework everyday this week|100|False
